@@ -21,7 +21,7 @@ export interface LayananTambahanItem {
 export const CONFIG = {
   infoToko: {
     namaAplikasi: 'LaundryCalc',
-    namaToko: 'Laundry UMKM',
+    namaToko: 'Laundry Harry',
     nomorWhatsApp: '6281234567890',
     jamBuka: 'Senin - Sabtu 07.00 s.d. 22.00 WIB, Minggu libur',
     jamJemput: '09:00 - 17:00 WIB',
