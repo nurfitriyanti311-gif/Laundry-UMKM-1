@@ -2,6 +2,7 @@
 
 import { type FormEvent, type MouseEvent, useMemo, useRef, useState } from 'react';
 import { FormPemesan } from './components/FormPemesan';
+import { InfoJamOperasional } from './components/InfoJamOperasional';
 import { InputBerat } from './components/InputBerat';
 import { KatalogLayanan } from './components/KatalogLayanan';
 import { OpsiTambahan } from './components/OpsiTambahan';
@@ -159,6 +160,10 @@ export default function App() {
           <p className="text-sm text-neutral-600">
             Hitung estimasi biaya cucian Anda dan kirim pesanan ke WhatsApp.
           </p>
+          <InfoJamOperasional
+            jamBuka={CONFIG.infoToko.jamBuka}
+            jamJemput={CONFIG.infoToko.jamJemput}
+          />
         </header>
 
         <form onSubmit={handleSubmitForm} noValidate>

@@ -23,6 +23,8 @@ export const CONFIG = {
     namaAplikasi: 'LaundryCalc',
     namaToko: 'Laundry UMKM',
     nomorWhatsApp: '6281234567890',
+    jamBuka: '08:00 - 20:00 WIB',
+    jamJemput: '09:00 - 17:00 WIB',
     radiusJemputMaksKm: 5,
   },
   aturanBerat: {

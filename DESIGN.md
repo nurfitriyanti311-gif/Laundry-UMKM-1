@@ -21,6 +21,7 @@ Dokumen ini mencatat keputusan desain pengguna dan aturan tampilan yang dipakai 
 - **FT-04 (Floating Price Summary):** Bar menempel di bawah layar ponsel setinggi maksimal 15% tinggi layar yang menampilkan biaya layanan utama, biaya tambahan, total estimasi, dan tombol kirim; pada layar desktop (`lg:`), ringkasan lengkap tampil di kolom kanan.
 - **FT-05 (Form Data Pemesan):** Kolom `Nama Pemesan` wajib, `Alamat Penjemputan` tampil dan wajib hanya saat `Antar-Jemput` aktif, serta `Catatan Khusus` opsional.
 - **FT-06 (WhatsApp Deep Link):** Tautan resmi `https://wa.me/` yang divalidasi terlebih dahulu sebelum membuka tab baru.
+- **FT-07 (Info Jam Operasional Toko):** Dua baris teks ringkas (`text-sm text-neutral-600 tabular-nums`) di bawah deskripsi header tanpa kapsul atau pemisah titik agar tampilan awal ponsel 360 x 740 px tetap ringkas.
 
 ## 3. Token Visual & Aturan Gaya
 
