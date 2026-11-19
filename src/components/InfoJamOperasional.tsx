@@ -14,7 +14,7 @@ export function InfoJamOperasional({
       aria-label="Informasi jam operasional toko"
       className="flex flex-wrap gap-x-6 gap-y-1 pt-1 text-sm text-neutral-600 tabular-nums"
     >
-      <span>Buka setiap hari {jamBuka}</span>
+      <span>Buka {jamBuka}</span>
       <span>Jadwal jemput {jamJemput}</span>
     </div>
   );

@@ -33,4 +33,4 @@ Dokumen ini merangkum daftar fitur, prioritas, ketergantungan, dan keputusan bis
 4. **Nomor WhatsApp toko di konfigurasi:** Memakai nomor contoh berformat valid `6281234567890` di `src/config.ts` agar tautan WhatsApp dapat langsung diuji dan mudah diganti pemilik toko.
 5. **Kolom alamat saat Antar-Jemput tidak aktif:** Disembunyikan dari layar dan otomatis terisi `"Antar Sendiri ke Toko"` pada template WhatsApp.
 6. **Penamaan add-on Pewangi Premium:** Menggunakan label `"Pewangi Premium"` pada ringkasan serta template WhatsApp sesuai BL-02 dan JSON konfigurasi PRD, dengan catatan aroma `Downy Passion / Mystique`.
-7. **Format jam operasional (FT-07):** Memakai format resmi pada Bagian 11 PRD (`08:00 - 20:00 WIB` dan `09:00 - 17:00 WIB`).
+7. **Format jam operasional (FT-07):** Jam operasional toko diperbarui menjadi `Senin - Sabtu 07.00 s.d. 22.00 WIB, Minggu libur` sesuai permintaan terbaru, sedangkan jadwal jemput tetap memakai `09:00 - 17:00 WIB` dari Bagian 11 PRD.
